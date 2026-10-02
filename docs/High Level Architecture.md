@@ -1,4 +1,4 @@
-# BookBridge — High Level Architecture (HLD)
+# BookBridge: High Level Architecture (HLD)
 
 ## 1. System Overview
 

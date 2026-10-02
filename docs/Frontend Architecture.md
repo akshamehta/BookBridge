@@ -1,4 +1,4 @@
-# BookBridge — Frontend Architecture
+# BookBridge: Frontend Architecture
 
 ## 1. Architectural Decisions at a Glance
 

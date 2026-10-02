@@ -1,4 +1,4 @@
-# BookBridge — Production Deployment Architecture
+# BookBridge: Production Deployment Architecture
 
 ## 1. Deployment Principles and Key Decisions
 

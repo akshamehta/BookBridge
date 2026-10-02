@@ -1,4 +1,4 @@
-# BookBridge — REST API Specification (v1)
+# BookBridge: REST API Specification (v1)
 
 **Base URL:** `https://api.bookbridge.in/v1` · **Format:** JSON (`application/json`), UTF-8 · **Spec:** published as OpenAPI 3.1 at `/v1/openapi.json`.
 

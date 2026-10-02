@@ -1,4 +1,4 @@
-# BookBridge — PostgreSQL Schema Design
+# BookBridge: PostgreSQL Schema Design
 
 ## 1. Design Principles and Conventions
 

@@ -1,4 +1,4 @@
-# BookBridge — Backend Architecture
+# BookBridge: Backend Architecture
 
 ## 1. Architectural Style
 
