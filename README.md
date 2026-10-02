@@ -4,10 +4,10 @@
 
 ### 📚 A community platform where books circulate instead of gathering dust
 
-[![CI](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/bookbridge/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white)](https://github.com/YOUR_USERNAME/bookbridge/actions)
-[![License](https://img.shields.io/github/license/YOUR_USERNAME/bookbridge?color=blue)](LICENSE)
-[![Last commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/bookbridge?color=orange)](https://github.com/YOUR_USERNAME/bookbridge/commits/main)
-[![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/bookbridge?style=social)](https://github.com/YOUR_USERNAME/bookbridge)
+[![CI](https://img.shields.io/github/actions/workflow/status/akshamehta/BookBridge/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white)](https://github.com/akshamehta/BookBridge/actions)
+[![License](https://img.shields.io/github/license/akshamehta/BookBridge?color=blue)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/akshamehta/BookBridge?color=orange)](https://github.com/akshamehta/BookBridge/commits/main)
+[![Stars](https://img.shields.io/github/stars/akshamehta/BookBridge?style=social)](https://github.com/akshamehta/BookBridge)
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
@@ -64,8 +64,8 @@ flowchart LR
 ## ⚡ Quick Start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/bookbridge.git
-cd bookbridge
+git clone https://github.com/akshamehta/BookBridge.git
+cd BookBridge
 cp .env.example .env          # add your local values
 docker compose up --build     # api, worker, postgres, redis
 ```
@@ -80,7 +80,7 @@ docker compose up --build     # api, worker, postgres, redis
 ## 🗂️ Project Structure
 
 ```text
-bookbridge/
+BookBridge/
 ├── backend/    # FastAPI: modules/ (identity, catalog, exchange, chat…), core/, tasks/
 ├── web/        # React + TS + Tailwind: features/, shared/, app/
 ├── infra/      # Terraform: network, ecs, rds, redis, monitoring
