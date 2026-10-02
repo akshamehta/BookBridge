@@ -17,11 +17,7 @@ This architecture provides a clean separation of concerns while keeping developm
 
 ---
 
-# Problem Statement
-
-BookBridge is intended to be a production-quality portfolio project that demonstrates software engineering principles rather than just CRUD functionality.
-
-The architecture should:
+# The architecture should:
 
 - be easy to develop
 - remain maintainable as features grow
