@@ -1,9 +1,5 @@
 # BookBridge — Frontend Architecture
 
-**Author:** Senior Frontend Engineer · **Inputs:** PRD, HLD, REST API spec · **Stack:** React 18, TypeScript (strict), Tailwind CSS.
-
----
-
 ## 1. Architectural Decisions at a Glance
 
 | Decision | Choice | Why | Rejected alternative |

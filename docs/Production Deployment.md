@@ -1,11 +1,5 @@
 # BookBridge — Production Deployment Architecture
 
-**Author:** Cloud Architect · **Inputs:** HLD, DB schema, backend and frontend architecture · **Region:** AWS `ap-south-1` (Mumbai) primary, `ap-southeast-1` (Singapore) for disaster recovery.
-
-> Cost figures are order-of-magnitude estimates for planning. Verify with the AWS Pricing Calculator before committing.
-
----
-
 ## 1. Deployment Principles and Key Decisions
 
 | Decision | Choice | Why | Rejected |

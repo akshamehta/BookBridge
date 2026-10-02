@@ -1,9 +1,5 @@
 # BookBridge — High Level Architecture (HLD)
 
-**Author:** Staff SDE · **Input:** BookBridge PRD v1.0 · **Scale target:** 1M+ users, 100k+ DAU, 1M+ listings, designed to grow 10x without redesign.
-
----
-
 ## 1. System Overview
 
 BookBridge is a **read-heavy, geo-aware, workflow-driven** platform. Three traffic shapes drive the design:

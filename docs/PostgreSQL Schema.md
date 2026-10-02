@@ -1,9 +1,5 @@
 # BookBridge — PostgreSQL Schema Design
 
-**Author:** Database Architect · **Inputs:** PRD v1.0, HLD v1.0 · **Target:** PostgreSQL 16 + PostGIS, 1M+ users, 10M+ copies/listings, billions of messages/events over time.
-
----
-
 ## 1. Design Principles and Conventions
 
 | Decision | Choice | Why |

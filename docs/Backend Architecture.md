@@ -1,9 +1,5 @@
 # BookBridge — Backend Architecture
 
-**Author:** Senior Backend Engineer · **Inputs:** PRD, HLD, DB Schema · **Stack:** FastAPI (async), SQLAlchemy 2 (async), PostgreSQL, Redis, JWT.
-
----
-
 ## 1. Architectural Style
 
 **Modular monolith with layered modules and a shared kernel.** One deployable codebase, three entrypoints (API, Worker, Realtime) from the same image, per the HLD.
