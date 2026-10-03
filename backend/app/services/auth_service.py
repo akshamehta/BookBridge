@@ -98,7 +98,7 @@ def login_user(db: Session, credentials: UserLogin) -> TokenResponse:
         verify_password(credentials.password, _DUMMY_PASSWORD_HASH)
         raise _invalid_credentials()
 
-    if not verify_password(credentials.password, user.password_hash):
+    if not verify_password(credentials.password, user.hashed_password):
         raise _invalid_credentials()
 
     token = create_access_token({"sub": str(user.id)})

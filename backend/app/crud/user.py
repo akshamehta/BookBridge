@@ -42,7 +42,7 @@ def get_user_by_username(db: Session, username: str) -> User | None:
     return db.execute(stmt).scalar_one_or_none()
 
 
-def get_user_by_id(db: Session, user_id: UUID) -> User | None:
+def get_user_by_id(db: Session, user_id: int) -> User | None:
     """Fetch a user by primary key.
 
     Args:
@@ -76,7 +76,7 @@ def create_user(db: Session, user: UserRegister) -> User:
     db_user = User(
         username=user.username,
         email=user.email,
-        password_hash=hash_password(user.password),
+        hashed_password=hash_password(user.password),
     )
     db.add(db_user)
     db.commit()
